@@ -1,0 +1,364 @@
+
+action.hint.exit.boat=Press jump to dismount
+action.hint.exit.minecart=Tap jump to dismount
+action.hint.exit.pig=Press sneak to dismount
+action.hint.exit.horse=Press sneak to dismount
+action.hint.exit.strider=Press sneak to dismount
+action.hint.exit.donkey=Press sneak to dismount
+action.hint.exit.mule=Press sneak to dismount
+action.hint.exit.llama=Press sneak to dismount
+action.hint.exit.trader_llama=Press sneak to dismount
+action.hint.exit.skeleton_horse=Press sneak to dismount
+
+
+action.hint.exit.scheme.minecart=Press dismount to dismount
+action.hint.exit.scheme.pig=Press dismount to dismount
+action.hint.exit.scheme.horse=Press dismount to dismount
+action.hint.exit.scheme.strider=Press dismount to dismount
+action.hint.exit.scheme.donkey=Press dismount to dismount
+action.hint.exit.scheme.mule=Press dismount to dismount
+action.hint.exit.scheme.llama=Press dismount to dismount
+action.hint.exit.scheme.trader_llama=Press dismount to dismount
+action.hint.exit.scheme.skeleton_horse=Press dismount to dismount
+
+action.hint.exit.console.boat=Press :_input_key.jump: to dismount
+action.hint.exit.console.minecart=Press :_input_key.jump: to dismount
+action.hint.exit.console.pig=Press :_input_key.sneak: to dismount
+action.hint.exit.console.horse=Press :_input_key.sneak: to dismount
+action.hint.exit.console.strider=Press :_input_key.sneak: to dismount
+action.hint.exit.console.donkey=Press :_input_key.sneak: to dismount
+action.hint.exit.console.mule=Press :_input_key.sneak: to dismount
+action.hint.exit.console.llama=Press :_input_key.sneak: to dismount
+action.hint.exit.console.trader_llama=Press :_input_key.sneak: to dismount
+action.hint.exit.console.skeleton_horse=Press :_input_key.sneak: to dismount
+
+
+advMode.command=Console Command
+
+
+
+
+craftingScreen.tab.search=Showing All
+craftingScreen.tab.search.filter=Showing Craftable
+craftingScreen.tab.construction=Blocks
+craftingScreen.tab.nature=Nature
+craftingScreen.tab.equipment=Equipment
+craftingScreen.tab.items=Items
+craftingScreen.tab.survival=Inventory
+craftingScreen.tab.armor=Armor
+
+
+
+
+
+createWorldScreen.action.editLocal=Make Infinite!
+createWorldScreen.alwaysDay=Always Day
+createWorldScreen.bonusChest=Bonus Chest
+createWorldScreen.pvp=Friendly Fire
+createWorldScreen.immediaterespawn=Immediate Respawn
+createWorldScreen.respawnRadius=Respawn Radius
+createWorldScreen.trustPlayers=Trust Players
+createWorldScreen.fireSpreads=Fire Spreads
+createWorldScreen.mobLoot=Mob Loot
+createWorldScreen.tileDrops=Tile Drops
+createWorldScreen.keepInventory=Keep Inventory
+createWorldScreen.naturalregeneration=Natural Regeneration
+createWorldScreen.tntexplodes=TNT Explodes
+createWorldScreen.respawnblocksexplode=Respawn Blocks Explode
+createWorldScreen.weathercycle=Weather Cycle
+createWorldScreen.daylightcycle=Do Daylight Cycle
+createWorldScreen.mobSpawn=Mob Spawning
+createWorldScreen.mobgriefing=Mob Griefing
+createWorldScreen.educationtoggle=Education Edition
+createWorldScreen.entitiesdroploot=Entities Drop Loot
+createWorldScreen.commandblocksenabled=Command Blocks Enabled
+createWorldScreen.experimentalgameplay=Experiments
+createWorldScreen.experimentalgameplayinfo=§7Try out features that are under development. Can't be turned off after world creation.
+createWorldScreen.experimentalbiomes=Custom biomes
+createWorldScreen.experimentalbiomesDescription=Create custom biomes and change world generation
+createWorldScreen.experimentalCreatorFeatures=Upcoming Creator Features
+createWorldScreen.experimentalCreatorFeaturesDescription=Includes actor properties and adjustable fog parameters
+createWorldScreen.experimentalmoddingDescription=Doing a lot of repetitive things? This might help creating your add-on
+createWorldScreen.experimentalSneakingFeature=Short Sneaking
+createWorldScreen.experimentalSneakingFeatureDescription=Allow players to sneak under 1.5 block gaps
+createWorldScreen.cavesandcliffs=Caves and Cliffs
+createWorldScreen.cavesandcliffsDescription=Explore the new varied cave generation
+createWorldScreen.spectatorMode=Spectator Mode
+createWorldScreen.spectatorModeDescription=Try out the early versions of Spectator Mode
+createWorldScreen.experimentalCameras=Experimental Cameras
+createWorldScreen.experimentalCamerasDescription=Enable the camera command
+createWorldScreen.experimentalholiday=Holiday Creator Features
+createWorldScreen.experimentalholidayDescription=Add data-driven blocks and item technology to customize block shape, rotation, damage and more
+createWorldScreen.experimentalGameTest=Beta APIs
+createWorldScreen.experimentalGameTestDescription=Use "-beta" versions of API modules in add-on packs
+createWorldScreen.experimentalMolangFeatures=Molang Features
+createWorldScreen.experimentalMolangFeaturesDescription=Molang experimental queries and language features
+createWorldScreen.worldPreferences=World Preferences
+createWorldScreen.startWithMap=Starting Map
+createWorldScreen.defaultName=My World
+createWorldScreen.create=Create
+createWorldScreen.createOnRealms=Create on Realms Server
+createWorldScreen.delete=Delete
+createWorldScreen.deleteWorld=Delete World
+createWorldScreen.delete.desc=Delete your world forever.
+createWorldScreen.delete.confirm=Delete world permanently?
+createWorldScreen.deleteWarningFormat=Are you sure you want to delete this world? This world will be lost forever! (A long time!)
+createWorldScreen.editTitleFormat=Edit "%s"
+createWorldScreen.game.settings=Game Settings
+createWorldScreen.gameMode=Game Mode
+createWorldScreen.gameMode.default=Default Game Mode
+createWorldScreen.gameMode.personal=Personal Game Mode
+createWorldScreen.gameMode.adventure=Adventure
+createWorldScreen.gameMode.creative=Creative
+createWorldScreen.gameMode.creative.desc=Create, build, and explore without limits. You can fly, have endless materials, and can't be hurt by monsters.
+createWorldScreen.gameMode.survival=Survival
+createWorldScreen.gameMode.survival.desc=Explore a mysterious world where you build, collect, craft, and fight monsters.
+Search for resources, craft, gain
+levels, health and hunger
+createWorldScreen.gameMode.spectator=Spectator
+createWorldScreen.gameMode.serverDefault=Default
+createWorldScreen.header.delete=World Permanence
+createWorldScreen.header.editLocal=Edit your World
+createWorldScreen.header.general.project=Project
+createWorldScreen.header.general.exportSettings=Export Settings
+createWorldScreen.header.general.exportSettings.description=§7Some functionality may be overridden during Editing session, but are fully respected when exported
+createWorldScreen.header.local=Create a World
+createWorldScreen.header.realms=Create a Realms Server
+createWorldScreen.header.realmsReset=Reset your Realm?
+createWorldScreen.levelName=Name
+createWorldScreen.levelSeed=Seed
+createWorldScreen.multiplayer.settings=Multiplayer Settings
+createWorldScreen.progress.local=Creating new world...
+createWorldScreen.progress.realms=Resetting Realm...
+createWorldScreen.seed.desc=Enter a seed to generate the same terrain again. Leave blank for a random world.
+createWorldScreen.showCoordinates=Show Coordinates
+createWorldScreen.worldType=World Type
+createWorldScreen.randomtickspeed=Random Tick Speed
+createWorldScreen.randomtickspeed.reset=Reset Random Tick Speed
+createWorldScreen.serverSimDistance=Simulation Distance
+createWorldScreen.serverSimDistanceFormat=%s chunks
+createWorldScreen.showbordereffect=Show Border Effect
+createWorldScreen.check_internet_connection=You are not connected to the internet. Your friends will not be able to join your multiplayer worlds. Sign in to your Microsoft Account to play with your friends.
+createWorldScreen.disconnectedXboxLive=You are not connected to Microsoft services. Your friends with Gamertags will not be able to join your multiplayer world. Sign in to your Microsoft Account to play with your friends.
+createWorldScreen.clearPlayerData.button=Clear Player Data
+createWorldScreen.clearPlayerData.title=Delete Player Data from World?
+createWorldScreen.clearPlayerData.body1=Select "All Player Data" to delete absolutely all player data from the world. The next time any player enters the world, they will start with fresh, default data.
+createWorldScreen.clearPlayerData.body2=Selecting "Keep Owning Player Data", will retain your current data (such as inventory items & location) and apply it the 'World Owner'. This is any player that loads the world locally or the owner of a realm it's on. 
+createWorldScreen.clearPlayerData.all=All Player Data
+createWorldScreen.clearPlayerData.allExceptLocal=Keep Owning Player Data
+createWorldScreen.clearPlayerData.cancel=Cancel
+createWorldScreen.clearPlayerData.progress=Clearing Player Data
+createWorldScreen.upload=Upload World
+createWorldScreen.editor.deleteProject=Delete Project
+createWorldScreen.editor.projectOptionsLabel=Project Options
+createWorldScreen.editor.delete.confirm=Delete project permanently?
+createWorldScreen.editor.deleteWarningFormat=Are you sure you want to delete "%s"? This project will be lost forever!
+
+
+
+
+death.attack.anvil=%1$s was squashed by a falling anvil
+death.attack.arrow=%1$s was shot by %2$s
+death.attack.arrow.item=%1$s was shot by %2$s using %3$s
+death.attack.bullet=%1$s was sniped by %2$s
+death.attack.cactus=%1$s was pricked to death
+death.attack.cactus.player=%1$s walked into a cactus whilst trying to escape %2$s
+death.attack.drown=%1$s drowned
+death.attack.drown.player=%1$s drowned whilst trying to escape %2$s
+death.attack.explosion=%1$s blew up
+death.attack.explosion.player=%1$s was blown up by %2$s
+death.attack.fall=%1$s hit the ground too hard
+death.attack.fallingBlock=%1$s was squashed by a falling block
+death.attack.fireball=%1$s was fireballed by %2$s
+death.attack.fireball.item=%1$s was fireballed by %2$s using %3$s
+death.attack.fireworks=%1$s went off with a bang
+death.attack.flyIntoWall=%1$s experienced kinetic energy
+death.attack.generic=%1$s died
+death.attack.indirectMagic=%1$s was killed by %2$s using magic
+death.attack.indirectMagic.item=%1$s was killed by %2$s using %3$s
+death.attack.inFire=%1$s went up in flames
+death.attack.inFire.player=%1$s walked into fire whilst fighting %2$s
+death.attack.inWall=%1$s suffocated in a wall
+death.attack.lava=%1$s tried to swim in lava
+death.attack.lava.player=%1$s tried to swim in lava to escape %2$s
+death.attack.lightningBolt=%1$s was struck by lightning
+death.attack.magic=%1$s was killed by magic
+death.attack.magma=%1$s discovered floor was lava
+death.attack.magma.player=%1$s walked on danger zone due to %2$s
+death.attack.mob=%1$s was slain by %2$s
+death.attack.mob.item=%1$s was slain by %2$s using %3$s
+death.attack.onFire=%1$s burned to death
+death.attack.onFire.player=%1$s was burnt to a crisp whilst fighting %2$s
+death.attack.outOfWorld=%1$s fell out of the world
+death.attack.player=%1$s was slain by %2$s
+death.attack.player.item=%1$s was slain by %2$s using %3$s
+death.attack.spit=%1$s was spitballed by %2$s
+death.attack.starve=%1$s starved to death
+death.attack.sweetBerry=%1$s was poked to death by a sweet berry bush
+death.attack.thorns=%1$s was killed trying to hurt %2$s
+death.attack.thrown=%1$s was pummeled by %2$s
+death.attack.thrown.item=%1$s was pummeled by %2$s using %3$s
+death.attack.trident=%1$s was impaled to death by %2$s
+death.attack.wither=%1$s withered away
+death.attack.freeze=%1$s froze to death
+death.attack.sonicBoom=%1$s was obliterated by a sonically-charged shriek
+death.attack.sonicBoom.player=%1$s was obliterated by a sonically-charged shriek whilst trying to escape %2$s
+death.attack.stalactite=%1$s was skewered by a falling stalactite
+death.attack.stalagmite=%1$s was impaled on a stalagmite
+death.fell.accident.generic=%1$s fell from a high place
+death.fell.accident.ladder=%1$s fell off a ladder
+death.fell.accident.vines=%1$s fell off some vines
+death.fell.accident.water=%1$s fell out of the water
+death.fell.assist=%1$s was doomed to fall by %2$s
+death.fell.assist.item=%1$s was doomed to fall by %2$s using %3$s
+death.fell.finish=%1$s fell too far and was finished by %2$s
+death.fell.finish.item=%1$s fell too far and was finished by %2$s using %3$s
+death.fell.killer=%1$s was doomed to fall
+
+deathScreen.deleteWorld=Delete world
+deathScreen.hardcoreInfo=You cannot respawn in hardcore mode!
+deathScreen.leaveServer=Leave server
+deathScreen.message=You died!
+deathScreen.quit=Main menu
+deathScreen.quit.confirm=Are you sure you want to quit?
+deathScreen.quit.confirmToMainMenuWarning=Are you sure you want to exit the game to the main menu?
+deathScreen.quit.confirmToMainMenuTitleWarning=Quit to Main Menu?
+deathScreen.quit.secondaryClient=Save and Leave
+deathScreen.quit.secondaryClient.confirmLeaveWarning=Are you sure you want to save and leave the game?
+deathScreen.quit.secondaryClient.confirmLeaveTitleWarning=Save and Leave
+deathScreen.respawn=Respawn
+deathScreen.score=Score
+deathScreen.title=You died!
+deathScreen.title.hardcore=Game over!
+deathScreen.titleScreen=Title screen
+
+
+enchantment.level.1=
+
+
+gameMode.adventure=Adventure
+gameMode.changed=Your game mode has been updated to %s
+gameMode.creative=Creative
+gameMode.hardcore=Hardcore
+gameMode.spectator=Spectator
+gameMode.survival=Survival
+
+
+
+item.cooked_beef.name=Steak
+
+item.spawn_egg.entity.agent.name=Sniffer Spawn Egg
+item.spawn_egg.entity.axolotl.name=Axolotl Spawn Egg
+item.spawn_egg.entity.bee.name=Bee Spawn Egg
+item.spawn_egg.entity.hoglin.name=Hoglin Spawn Egg
+item.spawn_egg.entity.cat.name=Cat Spawn Egg
+item.spawn_egg.entity.chicken.name=Chicken Spawn Egg
+item.spawn_egg.entity.cow.name=Cow Spawn Egg
+item.spawn_egg.entity.cod.name=Cod Spawn Egg
+item.spawn_egg.entity.ender_dragon.name=Ender Dragon Spawn Egg
+item.spawn_egg.entity.goat.name=Goat Spawn Egg
+item.spawn_egg.entity.pufferfish.name=Pufferfish Spawn Egg
+item.spawn_egg.entity.salmon.name=Salmon Spawn Egg
+item.spawn_egg.entity.tropicalfish.name=Tropical Fish Spawn Egg
+item.spawn_egg.entity.pig.name=Pig Spawn Egg
+item.spawn_egg.entity.sheep.name=Sheep Spawn Egg
+item.spawn_egg.entity.npc.name=NPC Spawn Egg
+item.spawn_egg.entity.npc.failed=You need Creative + Operator to spawn an NPC
+item.spawn_egg.entity.wolf.name=Wolf Spawn Egg
+item.spawn_egg.entity.villager.name=Villager Spawn Egg
+item.spawn_egg.entity.villager_v2.name=Villager Spawn Egg
+item.spawn_egg.entity.vindicator.name=Vindicator Spawn Egg
+item.spawn_egg.entity.mooshroom.name=Mooshroom Spawn Egg
+item.spawn_egg.entity.squid.name=Squid Spawn Egg
+item.spawn_egg.entity.glow_squid.name=Glow Squid Spawn Egg
+item.spawn_egg.entity.rabbit.name=Rabbit Spawn Egg
+item.spawn_egg.entity.bat.name=Bat Spawn Egg
+item.spawn_egg.entity.ravager.name=Ravager Spawn Egg
+item.spawn_egg.entity.iron_golem.name=Iron Golem Spawn Egg
+item.spawn_egg.entity.snow_golem.name=Snow Golem Spawn Egg
+item.spawn_egg.entity.ocelot.name=Ocelot Spawn Egg
+item.spawn_egg.entity.parrot.name=Parrot Spawn Egg
+item.spawn_egg.entity.horse.name=Horse Spawn Egg
+item.spawn_egg.entity.llama.name=Llama Spawn Egg
+item.spawn_egg.entity.trader_llama.name=Trader Llama Spawn Egg
+item.spawn_egg.entity.polar_bear.name=Polar Bear Spawn Egg
+item.spawn_egg.entity.donkey.name=Donkey Spawn Egg
+item.spawn_egg.entity.mule.name=Mule Spawn Egg
+item.spawn_egg.entity.skeleton_horse.name=Skeleton Horse Spawn Egg
+item.spawn_egg.entity.zombie_horse.name=Zombie Horse Spawn Egg
+item.spawn_egg.entity.zombie.name=Zombie Spawn Egg
+item.spawn_egg.entity.drowned.name=Drowned Spawn Egg
+item.spawn_egg.entity.creeper.name=Creeper Spawn Egg
+item.spawn_egg.entity.skeleton.name=Skeleton Spawn Egg
+item.spawn_egg.entity.spider.name=Spider Spawn Egg
+item.spawn_egg.entity.zombie_pigman.name=Zombified Piglin Spawn Egg
+item.spawn_egg.entity.strider.name=Strider Spawn Egg
+item.spawn_egg.entity.slime.name=Slime Spawn Egg
+item.spawn_egg.entity.enderman.name=Enderman Spawn Egg
+item.spawn_egg.entity.silverfish.name=Silverfish Spawn Egg
+item.spawn_egg.entity.cave_spider.name=Cave Spider Spawn Egg
+item.spawn_egg.entity.ghast.name=Ghast Spawn Egg
+item.spawn_egg.entity.magma_cube.name=Magma Cube Spawn Egg
+item.spawn_egg.entity.blaze.name=Blaze Spawn Egg
+item.spawn_egg.entity.zombie_villager.name=Zombie Villager Spawn Egg
+item.spawn_egg.entity.zombie_villager_v2.name=Zombie Villager Spawn Egg
+item.spawn_egg.entity.witch.name=Witch Spawn Egg
+item.spawn_egg.entity.stray.name=Stray Spawn Egg
+item.spawn_egg.entity.husk.name=Husk Spawn Egg
+item.spawn_egg.entity.wither_skeleton.name=Wither Skeleton Spawn Egg
+item.spawn_egg.entity.guardian.name=Guardian Spawn Egg
+item.spawn_egg.entity.elder_guardian.name=Elder Guardian Spawn Egg
+item.spawn_egg.entity.shulker.name=Shulker Spawn Egg
+item.spawn_egg.entity.endermite.name=Endermite Spawn Egg
+item.spawn_egg.entity.evocation_illager.name=Evoker Spawn Egg
+item.spawn_egg.entity.vex.name=Vex Spawn Egg
+item.spawn_egg.entity.turtle.name=Sea Turtle Spawn Egg
+item.spawn_egg.entity.dolphin.name=Dolphin Spawn Egg
+item.spawn_egg.entity.phantom.name=Phantom Spawn Egg
+item.spawn_egg.entity.panda.name=Panda Spawn Egg
+item.spawn_egg.entity.pillager.name=Pillager Spawn Egg
+item.spawn_egg.entity.piglin_brute.name=Piglin Brute Spawn Egg
+item.spawn_egg.entity.piglin.name=Piglin Spawn Egg
+item.spawn_egg.entity.fox.name=Fox Spawn Egg
+item.spawn_egg.entity.unknown.name=Spawn
+item.spawn_egg.entity.wandering_trader.name=Wandering Trader Spawn Egg
+item.spawn_egg.entity.wither.name=Wither Spawn Egg
+item.spawn_egg.entity.zoglin.name=Zoglin Spawn Egg
+item.spawn_egg.entity.sniffer.name=Sniffer Spawn Egg
+
+
+map.position=XYZ: %s, %s, %s
+
+
+menu.convertingLevel=Converting world
+
+menu.play=Play Game
+
+menu.quit=Quit Game
+
+
+menu.returnToGame=Back To Game
+menu.returnToMenu=Save and Quit to Title
+menu.shareToLan=Open to LAN
+
+menu.singleplayer=Singleplayer
+menu.store=Minecraft Marketplace
+
+options.autojump=Auto-Jump
+options.sprintOnMovement=Auto-Sprint
+
+options.category.audio=Music & Sounds...
+options.category.classroom_settings=Classroom
+options.category.game=Game
+options.category.graphics=Video Settings...
+
+
+
+profileScreen.header=Skin Customization
+profileScreen.reload=Reload Skin
+
+item.spawn_egg.entity.warden.name=Warden Spawn Egg
+entity.warden.name=Warden
+entity.allay.name=Allay
+item.spawn_egg.entity.allay.name=Allay Spawn Egg
+action.interact.allay=Give item to Allay

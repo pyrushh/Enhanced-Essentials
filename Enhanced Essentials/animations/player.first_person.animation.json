@@ -1,0 +1,79 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.player.first_person.attack_rotation": {
+      "loop": true,
+      "bones": {
+        "rightarm": {
+          "position": [
+            "math.sin(math.pow(variable.attack_time, 0.5) * 180.0) * -2.6",
+            "math.sin(math.pow(variable.attack_time, 0.5) * 360.0) * 6.1",
+            "math.sin(math.pow(variable.attack_time, 1.1) * 180.0) * 3.1"
+          ],
+          "rotation": [
+            "math.sin(math.pow(variable.attack_time, 0.45) * 180.0) * -56.0",
+            "math.sin(math.pow(variable.attack_time, 0.5) * 180.0) * 45.0",
+            "math.sin(math.pow(variable.attack_time, 0.3) * 180.0) * 22.5"
+          ]
+        }
+      }
+    },
+    "animation.player.first_person.attack_rotation_item": {
+      "loop": true,
+      "override_previous_animation": true,
+      "bones": {
+        "rightitem": {
+          "position": [
+            "-math.sin(math.sqrt(variable.attack_time) * Math.Pi * 100) * 10",
+            "math.sin(math.sqrt(variable.attack_time) * Math.Pi * 2 * 60) * 10",
+            "-math.sin(variable.attack_time * Math.Pi * 65) * 2"
+          ],
+          "rotation": [
+            "-math.sin(math.sqrt(variable.attack_time) * Math.Pi * 20) * 25",
+            "-math.sin(math.sqrt(variable.attack_time) * 75.0) * 15.0",
+            "-math.sin(math.sqrt(variable.attack_time) * 25) * 15"
+          ]
+        }
+      }
+    },
+    "animation.player.first_person.empty_hand": {
+      "loop": true,
+      "bones": {
+        "rightarm": {
+          "position": [13.5, -7.9, 12.0],
+          "rotation": [
+            "95.0 + variable.is_using_vr * 7.5",
+            "-45.0 + variable.is_using_vr * 7.5",
+            "115.0 + variable.is_using_vr * -2.5"
+          ]
+        },
+        "rightitem": {
+          "position": [
+            0.0,
+            "q.get_default_bone_pivot('rightarm',1) - q.get_default_bone_pivot('rightitem',1) - 7.0",
+            "-q.get_default_bone_pivot('rightitem',2)"
+          ]
+        }
+      }
+    },
+    "animation.player.first_person.walk": {
+      "loop": true,
+      "bones": {
+        "leftarm": {
+          "position": [
+            "math.sin(-query.walk_distance * 180.0) * variable.hand_bob * 9.75",
+            "-math.abs(math.cos(-query.walk_distance * 180.0)) * variable.hand_bob * 15.0 + variable.short_arm_offset_left",
+            0.0
+          ]
+        },
+        "rightarm": {
+          "position": [
+            "math.sin(query.walk_distance * 180.0) * variable.hand_bob * 9.75",
+            "math.abs(math.cos(-query.walk_distance * 180.0)) * variable.hand_bob * 15.0 + variable.short_arm_offset_right",
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "namespace": "hud",
+
+  "hud_screen": {
+    "render_only_when_topmost": false
+  },
+
+  "vignette_renderer": {
+    "type": "custom",
+    "renderer": "name_tag_renderer"
+  }
+}
