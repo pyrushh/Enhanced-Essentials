@@ -10,10 +10,10 @@ Enhanced-Essentials is a high-quality resource pack for Minecraft: Bedrock Editi
   - [Java colormap](#java-colormap)
   - [Enhanced Fast leaves](#enhanced-fast-leaves)
   - [No item flying animations in inventory](#no-item-flying-animations)
-  - [HUD appears when the inventory screen is open](#hud-visibility-inventory-screen)
-  - [Screens do not close when taking damage](#screens-remain-open-during-damage)
+  - [HUD appears when the inventory screen is open](#hud-appears-when-the-inventory-screen-is-open)
+  - [Screens do not close when taking damage](#screens-do-not-close-when-taking-damage)
   - [No vignette](#no-vignette)
-  - [Removed black background of item tooltip in hotbar](#removed-tooltip-background)
+  - [Removed black background of item tooltip in hotbar](#removed-black-background-of-item-tooltip-in-hotbar)
 - [Documentation and Installation](#documentation-and-installation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -62,7 +62,7 @@ The black background behind item tooltips in the hotbar has been eliminated, enh
 
 ## Documentation and Installation
 
-For detailed documentation and installation instructions, please refer to the [Documentation](#documentation-and-installation) section.
+For detailed documentation and installation instructions, please refer to the [Documentation and Installation](#documentation-and-installation) section.
 
 ## Contributing
 
@@ -71,4 +71,3 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 ## License
 
 This project is licensed under the [MIT License](https://github.com/theparash/Enhanced-Essentials/blob/main/LICENSE).
-
