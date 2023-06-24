@@ -5,15 +5,17 @@ Enhanced-Essentials is a high-quality resource pack for Minecraft: Bedrock Editi
 ## Table of Contents
 - [Features](#features)
   - [No Marketplace button animations](#no-marketplace-button-animations)
-  - [Improved hand animations while standing and punching](#improved-hand-animations)
-  - [Minecraft: Bedrock Edition Title in start menu](#minecraft-bedrock-edition-title)
+  - [Improved hand animations while standing and punching](#improved-hand-animations-while-standing-and-punching)
+  - [Minecraft: Bedrock Edition Title in start menu](#minecraft-bedrock-edition-title-in-start-menu)
   - [Java colormap](#java-colormap)
-  - [Enhanced Fast leaves](#enhanced-fast-leaves)
-  - [No item flying animations in inventory](#no-item-flying-animations)
-  - [HUD appears when the inventory screen is open](#hud-appears-when-the-inventory-screen-is-open)
-  - [Screens do not close when taking damage](#screens-do-not-close-when-taking-damage)
+  - [Better Fast leaves](#better-fast-leaves)
+  - [No item flying animations in inventory](#no-item-flying-animations-in-inventory)
+  - [HUD appears when inventory screen is open](#hud-appears-when-inventory-screen-is-open)
+  - [Screens do not close when taken damage](#screens-do-not-close-when-taken-damage)
   - [No vignette](#no-vignette)
-  - [Removed black background of item tooltip in hotbar](#removed-black-background-of-item-tooltip-in-hotbar)
+  - [Removed item names in hotbar (to increase visibility)](#removed-item-names-in-hotbar-to-increase-visibility)
+  - [Small UI and item name changes](#small-ui-and-item-name-changes)
+  - [Removed HUD tooltip black background](#removed-hud-tooltip-black-background)
 - [Documentation and Installation](#documentation-and-installation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -26,48 +28,51 @@ The distracting animated GIF animations in the Marketplace button on the start s
 
 ### Improved hand animations while standing and punching
 
-The first-person hand animations have been enhanced to resemble the Java Edition, providing a more immersive gameplay experience.
+The hand animations while standing and punching have been enhanced, providing a smoother and more realistic experience.
 
 ### Minecraft: Bedrock Edition Title in start menu
 
-The start menu now proudly displays "Minecraft: Bedrock Edition" instead of just "Minecraft," reflecting the version you are playing.
+The start menu now displays "Minecraft: Bedrock Edition" instead of just "Minecraft," making it clear which edition you are playing.
 
 ### Java colormap
 
-Experience more vibrant and visually stunning grass colors, similar to the Java Edition, resulting in a more beautiful and realistic Minecraft world.
+The grass colors in the game have been adjusted to resemble the vibrant colors found in the Java Edition.
 
-### Enhanced Fast leaves
+### Better Fast leaves
 
-The leaves in the "Fast" graphics option have been visually improved, providing a more appealing appearance while maintaining optimal performance.
+The leaves in the "Fast" graphics option have been improved to look more appealing.
 
 ### No item flying animations in inventory
 
-The distracting item flying animations when shift-clicking items in the inventory or other screens have been removed, ensuring a smoother and more efficient inventory management.
+The flying animations that occur when shift-clicking items in the inventory or other screens have been removed, resulting in a cleaner and more streamlined inventory management.
 
-### HUD appears when the inventory screen is open
+### HUD appears when inventory screen is open
 
-The hotbar and HUD elements now remain visible when accessing other screens, allowing for quick access to vital information and a better gameplay experience.
+The heads-up display (HUD) elements now remain visible when the inventory screen is open, allowing for easier monitoring of important information.
 
-### Screens do not close when taking damage
+### Screens do not close when taken damage
 
-The inventory or other screens will no longer close automatically when taking damage, providing uninterrupted gameplay during intense situations.
+The inventory and other screens will no longer close automatically when you take damage, providing a more seamless gameplay experience.
 
 ### No vignette
 
-The vignette effect, which creates a darkened border around the screen, has been removed, resulting in a clearer and more immersive visual experience.
+The vignette effect, which adds a darkened border around the screen, has been removed, resulting in a clearer and more immersive view.
 
-### Removed black background of item tooltip in hotbar
+### Removed item names in hotbar (to increase visibility)
 
-The black background behind item tooltips in the hotbar has been eliminated, enhancing visibility and providing a cleaner interface.
+The names of items in the hotbar have been removed to improve visibility and reduce clutter.
 
-## Documentation and Installation
+### Small UI and item name changes
 
-For detailed documentation and installation instructions, please refer to the [Documentation and Installation](#documentation-and-installation) section.
+Minor changes have been made to the user interface (UI) and item names for a more polished look and feel.
+
+### Removed HUD tooltip black background
+
+The black background behind HUD tooltips has been removed, creating a cleaner and more visually appealing interface.
+
 
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request on the [Enhanced-Essentials GitHub repository](https://github.com/theparash/Enhanced-Essentials).
 
-## License
 
-This project is licensed under the [MIT License](https://github.com/theparash/Enhanced-Essentials/blob/main/LICENSE).
