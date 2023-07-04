@@ -1,6 +1,6 @@
 # Enhanced-Essentials
 
-Enhanced-Essentials is a high-quality resource pack for Minecraft: Bedrock Edition that enhances the overall gameplay experience and improves the quality of life for players.
+Enhanced-Essentials is a lightweight resource pack for Minecraft: Bedrock Edition that enhances the overall gameplay experience and improves the quality of life for players.
 
 ## Table of Contents
 - [Features](#features)
@@ -13,7 +13,6 @@ Enhanced-Essentials is a high-quality resource pack for Minecraft: Bedrock Editi
   - [HUD appears when inventory screen is open](#hud-appears-when-inventory-screen-is-open)
   - [Screens do not close when taken damage](#screens-do-not-close-when-taken-damage)
   - [No vignette](#no-vignette)
-  - [Removed item names in hotbar (to increase visibility)](#removed-item-names-in-hotbar-to-increase-visibility)
   - [Small UI and item name changes](#small-ui-and-item-name-changes)
   - [Removed HUD tooltip black background](#removed-hud-tooltip-black-background)
 - [Documentation and Installation](#documentation-and-installation)
@@ -58,9 +57,6 @@ The inventory and other screens will no longer close automatically when you take
 
 The vignette effect, which adds a darkened border around the screen, has been removed, resulting in a clearer and more immersive view.
 
-### Removed item names in hotbar (to increase visibility)
-
-The names of items in the hotbar have been removed to improve visibility and reduce clutter.
 
 ### Small UI and item name changes
 
