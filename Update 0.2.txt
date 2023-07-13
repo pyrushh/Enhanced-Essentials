@@ -2,4 +2,5 @@
 - removed java colormap as this is meant to be a bedrock faithful pack
 - Added some missing spawn egg names
 - Renamed some options names
+- Added better block breaking animations
 - Removed herobrine
