@@ -248,7 +248,10 @@ gameMode.survival=Survival
 item.cooked_beef.name=Steak
 
 item.spawn_egg.entity.agent.name=Sniffer Spawn Egg
+item.spawn_egg.entity.camel.name=Camel Spawn Egg
+item.spawn_egg.entity.tadpole.name=Tadpole Spawn Egg
 item.spawn_egg.entity.axolotl.name=Axolotl Spawn Egg
+item.spawn_egg.entity.frog.name=Frog Spawn Egg
 item.spawn_egg.entity.bee.name=Bee Spawn Egg
 item.spawn_egg.entity.hoglin.name=Hoglin Spawn Egg
 item.spawn_egg.entity.cat.name=Cat Spawn Egg
@@ -338,6 +341,7 @@ menu.quit=Quit Game
 
 
 menu.returnToGame=Back To Game
+menu.settings= Settings
 menu.returnToMenu=Save and Quit to Title
 menu.shareToLan=Open to LAN
 
@@ -354,7 +358,7 @@ options.category.graphics=Video Settings...
 
 
 
-profileScreen.header=Skin Customization
+profileScreen.header=Customize Skin
 profileScreen.reload=Reload Skin
 
 item.spawn_egg.entity.warden.name=Warden Spawn Egg
