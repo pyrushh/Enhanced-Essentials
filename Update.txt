@@ -10,3 +10,4 @@
 - Added Java toast notification sound
 ## 0.4
 - Item and Block name changes for parity (Daylight Sensor to Daylight Detector)
+- You will only see the item name in hotbar instead of all the enchantment names

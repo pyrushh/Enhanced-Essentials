@@ -8,5 +8,154 @@
   "vignette_renderer": {
     "type": "custom",
     "renderer": "name_tag_renderer"
+  },
+
+  //only shows the item name and not the enchantment names
+  //code borrowed from _Overrr in Planetminecraft.
+  "item_name_text_root": {
+    "controls": []
+  },
+  "item_name_text": {
+    "alpha": 0,
+    "controls": [
+      {
+        "item_name_grid@hud.item_name_grid": {
+          "offset": [-10, 239]
+        }
+      }
+    ]
+  },
+  "item_name_grid@hud.hotbar_grid": {
+    "grid_item_template": "hud.item_name_panel",
+    "size": [0, 0]
+  },
+  "item_name_panel": {
+    "type": "panel",
+    "layer": 1,
+    "size": [20, 22],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      {
+        "hotbar_parent": {
+          "type": "panel",
+          "size": [18, 18],
+          "controls": [
+            {
+              "item_icon@hotbar_hud_item_icon": {
+                "layer": 3,
+                "size": [16, 16],
+                "controls": [
+                  {
+                    "item_name_container": {
+                      "type": "panel",
+                      "offset": [0, -250],
+                      "size": [200, 11],
+                      "clips_children": true,
+                      "controls": [
+                        {
+                          "item_text_label": {
+                            "type": "label",
+                            "text": "#item_text",
+                            "shadow": true,
+                            "color": "default",
+                            "anims": ["@hud.anim_item_name_text_alpha_in"],
+                            "layer": 50,
+                            "anchor_from": "top_middle",
+                            "anchor_to": "top_middle",
+                            "text_alignment": "center",
+                            "bindings": [
+                              {
+                                "binding_name": "#item_text"
+                              },
+                              {
+                                "binding_name": "#slot_selected",
+                                "binding_type": "collection",
+                                "binding_collection_name": "$hotbar_collection_name"
+                              },
+                              {
+                                "binding_name": "#item_id_aux",
+                                "binding_type": "collection",
+                                "binding_collection_name": "$item_collection_name"
+                              },
+                              {
+                                "binding_type": "view",
+                                "source_property_name": "((not (#item_id_aux = -1)) and (#slot_selected))",
+                                "target_property_name": "#visible"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "item_name_text_spacer": {
+    "type": "stack_panel",
+    "size": [0, 76],
+    "controls": [
+      {
+        "no_interact_padding@common.empty_panel": {
+          "size": ["100%sm", 10],
+          "bindings": [
+            {
+              "binding_name": "(not #interact_visible)",
+              "binding_name_override": "#visible",
+              "binding_condition": "always"
+            }
+          ]
+        }
+      },
+      {
+        "creative_padding@common.empty_panel": {
+          "size": ["100%sm", 14.5],
+          "bindings": [
+            {
+              "binding_name": "#is_creative_mode",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "item_name_text@hud.item_name_text": {}
+      }
+    ]
+  },
+  "exp_progress_bar_and_hotbar/resizing_xp_bar_with_hotbar/progress_text_label": {
+    "offset": [0, 3]
+  },
+  "exp_progress_bar_and_hotbar/item_text_factory": {
+    "control_ids": {
+      "item_text": "@hud.item_name_text_spacer",
+      "jukebox_text": "@hud.jukebox_text"
+    }
+  },
+  "anim_item_name_text_alpha_stay": {
+    "duration": 12
+  },
+  "anim_item_name_text_alpha_out": {
+    "easing": "in_cubic",
+    "duration": 8
+  },
+  "jukebox_text_alpha_stay": {
+    "anim_type": "wait",
+    "duration": 2,
+    "next": "@hud.jukebox_text_alpha_out"
+  },
+  "jukebox_text_alpha_out": {
+    "anim_type": "alpha",
+    "easing": "in_expo",
+    "destroy_at_end": "item_text_label",
+    "duration": 1,
+    "from": 1.0,
+    "to": 0
   }
 }
