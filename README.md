@@ -6,7 +6,7 @@ Enhanced-Essentials is a lightweight resource pack for Minecraft: Bedrock Editio
 
 # Downloads
 
-You can download this pack and look at what's changes <a href="https://github.com/theparash/Encanced-Essentials/releases"> from the releases page.</a>
+You can download this pack and look at what's changes <a href="https://github.com/pyrushh/Encanced-Essentials/releases"> from the releases page.</a>
 
 # Features
 
@@ -51,5 +51,5 @@ The black background behind HUD tooltips has been removed.
 
 # Contributing
 
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request on the [Enhanced-Essentials GitHub repository](https://github.com/theparash/Enhanced-Essentials).
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request on the [Enhanced-Essentials GitHub repository](https://github.com/pyrushh/Enhanced-Essentials).
 
