@@ -246,6 +246,7 @@ gameMode.survival=Survival
 
 
 item.cooked_beef.name=Steak
+tile.daylight_detector.name=Daylight Detector
 
 item.spawn_egg.entity.agent.name=Sniffer Spawn Egg
 item.spawn_egg.entity.camel.name=Camel Spawn Egg

@@ -8,3 +8,5 @@
 
 ## 0.3
 - Added Java toast notification sound
+## 0.4
+- Item and Block name changes for parity (Daylight Sensor to Daylight Detector)
