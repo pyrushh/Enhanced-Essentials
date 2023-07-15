@@ -20,6 +20,7 @@ The hand animations while standing and punching have been enhanced, providing a 
 
 ### Minecraft: Bedrock Edition Title in start menu
 The start menu now displays "Minecraft: Bedrock Edition" instead of just "Minecraft," making it clear which edition you are playing.
+
 ![image](https://github.com/theparash/Enhanced-Essentials/assets/121341169/3b0aba4b-d392-408a-b93e-9f379aea42e6)
 
 
