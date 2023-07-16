@@ -1,0 +1,9 @@
+{
+  "namespace": "stonecutter",
+  "help_button@common.help_button": {
+    "layer": 5,
+    "$focus_id": "help_button",
+    "$focus_override_up": "FOCUS_OVERRIDE_STOP",
+    "visible": "(false)"
+  }
+}

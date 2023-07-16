@@ -11,3 +11,4 @@
 ## 0.4
 - Item and Block name changes for parity (Daylight Sensor to Daylight Detector)
 - You will only see the item name in hotbar instead of all the enchantment names
+- Removed the question mark button(Help Button) from inventory and other screens
