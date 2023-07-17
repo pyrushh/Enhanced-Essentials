@@ -1,0 +1,36 @@
+{
+  "namespace": "loom_pocket",
+  "right_navigation_tabs": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [35, "100%"],
+    "offset": [-4, 0],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      { "pocket_tab_close_button@common_tabs.pocket_tab_close_button": {} },
+      {
+        "padding": {
+          "type": "panel",
+          "size": [0, 1]
+        }
+      },
+      {
+        "pocket_tab_help_button@common_tabs.pocket_tab_help_button": {
+          "visible": "(false)"
+        }
+      },
+      {
+        "fill": {
+          "type": "panel",
+          "size": ["100%", "fill"]
+        }
+      },
+      {
+        "right_tab_loom@loom_pocket.right_tab_loom": {
+          "$is_bottom_most_tab": true
+        }
+      }
+    ]
+  }
+}

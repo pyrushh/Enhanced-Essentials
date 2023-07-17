@@ -1,0 +1,10 @@
+{
+  "namespace": "trade2",
+
+  "how_to_play_button@common_buttons.light_text_button": {
+    "size": [18, 18],
+    "visible": "(false)",
+    "$pressed_button_name": "button.help",
+    "$button_text": "trade.question"
+  }
+}

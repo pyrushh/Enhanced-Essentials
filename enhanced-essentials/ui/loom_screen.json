@@ -1,0 +1,10 @@
+{
+  "namespace": "loom",
+
+  "help_button@common.help_button": {
+    "layer": 5,
+    "visible": "(false)",
+    "$focus_id": "help_button",
+    "$focus_override_up": "FOCUS_OVERRIDE_STOP"
+  }
+}
