@@ -13,3 +13,7 @@
 - You will only see the item name in hotbar instead of all the enchantment names
 - Removed the question mark button(Help Button) from inventory and other screens
 - The added server will now always be above the featured servers
+
+## 1.0.2
+- Fixed pack not importing
+- Version number parity
