@@ -10,3 +10,4 @@
 - Removed item names in hotbar (to increase visibility)
 - Small ui and item name changes
 - removed hud tooltip black background
+- 1.20.30??
