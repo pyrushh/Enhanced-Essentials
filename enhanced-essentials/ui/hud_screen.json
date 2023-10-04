@@ -130,9 +130,6 @@
       }
     ]
   },
-  "exp_progress_bar_and_hotbar/resizing_xp_bar_with_hotbar/progress_text_label": {
-    "offset": [0, 3]
-  },
   "exp_progress_bar_and_hotbar/item_text_factory": {
     "control_ids": {
       "item_text": "@hud.item_name_text_spacer",
