@@ -4,14 +4,15 @@
   "hud_screen": {
     "render_only_when_topmost": false
   },
-
+  //Remove Vignette
   "vignette_renderer": {
     "type": "custom",
-    "renderer": "name_tag_renderer"
+    "renderer": "name_tag_renderer",
+    "layer": "0"
   },
 
-  //only shows the item name and not the enchantment names
-  //code borrowed from _Overrr in Planetminecraft.
+  //Shows the item name and not the enchantment names
+  //Code borrowed from _Overrr in Planetminecraft.
   "item_name_text_root": {
     "controls": []
   },
