@@ -1,0 +1,53 @@
+{
+  "jukebox": {
+    "sound": "stone",
+    "textures": {
+      "down": "jukebox_side",
+      "side": "jukebox_side",
+      "up": "jukebox_top"
+    }
+  },
+  "lever": {
+    "sound": "stone",
+    "textures": {
+      "down": "lever",
+      "east": "lever_particle",
+      "north": "lever",
+      "south": "lever",
+      "up": "lever",
+      "west": "lever"
+    }
+  },
+  "unpowered_comparator": {
+    "sound": "stone",
+    "textures": {
+      "down": "comparator_stone_slab",
+      "side": "comparator_stone_slab",
+      "up": "comparator_up"
+    }
+  },
+  "unpowered_repeater": {
+    "sound": "stone",
+    "textures": {
+      "down": "repeater_floor",
+      "side": "repeater_floor",
+      "up": "repeater_up"
+    }
+  },
+  "powered_comparator": {
+    "sound": "stone",
+    "textures": {
+      "down": "comparator_stone_slab",
+      "side": "comparator_stone_slab",
+      "up": "comparator_up"
+    }
+  },
+  "powered_repeater": {
+    "sound": "stone",
+    "textures": {
+      "down": "repeater_floor",
+      "side": "repeater_floor",
+      "up": "repeater_up"
+    }
+  }
+}
