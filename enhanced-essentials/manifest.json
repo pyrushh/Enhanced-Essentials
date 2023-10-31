@@ -3,7 +3,7 @@
   "header": {
     "description": "An evergrowing resource pack that aims to enhance the vanilla game and make Bedrock Edition more fun for you. (Read changelog for info and features. )",
     "name": "Enhanced Essentials",
-    "uuid": "291b2f01-a978-4db5-8e01-e9a1ee9312d6",
+    "uuid": "5358e883-9bd0-458c-895f-f6051b20fb28",
     "version": [1, 2, 0],
     "min_engine_version": [1, 20, 30]
   },
@@ -11,7 +11,7 @@
     {
       "description": "Enhanced Essentials",
       "type": "resources",
-      "uuid": "0f84c981-84fd-49ed-943c-defd58513da6",
+      "uuid": "dcef3e58-6180-484f-b434-0bd6b52ab2ab",
       "version": [1, 2, 0]
     }
   ]
